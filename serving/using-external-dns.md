@@ -23,6 +23,8 @@ Choose a DNS provider from the list.
 
 ### Create a DNS zone for managing DNS records
 
+Skip this step if you already have a zone for managing DNS records of your custom domain.
+
 A DNS zone which will contain the managed DNS records needs to be created.
 Assume your custom domain is `external-dns-test.my-org.do`. You can use the following command to create a DNS zone if you are using Google Cloud DNS.
 ```shell
